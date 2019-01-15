@@ -21,6 +21,7 @@ public class GeometricProgression extends Progression {
         base = b;
     }
     
+    @Override
     protected void advance(){
         current *= base;
     }
